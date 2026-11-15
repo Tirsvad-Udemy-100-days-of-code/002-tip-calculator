@@ -11,6 +11,7 @@ A beginner-friendly Python console app that splits a restaurant bill, including 
 - [Tests](#-tests)
 - [License](#-license)
 - [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
 
 ## 🧭 Overview
 
@@ -23,6 +24,13 @@ What percentage tip would you like to give? 10, 12, or 15? 12
 How many people to split the bill? 7
 Each person should pay: $19.93
 ```
+
+The repository holds:
+
+- `src/tip_calculator/`: the calculation (`calculator.py`) and the console (`main.py`)
+- `tests/`: unit tests for the calculation
+- `docs/`: the artifact registry and the wiki (`docs/wiki/`, in English, Dansk and Bahasa Melayu)
+- `framework/`: the SQA and QC framework this project uses (git submodule)
 
 ## 📋 Requirements
 
@@ -59,6 +67,12 @@ Secrets such as repository tokens belong in a local `.env` file (see `.env.examp
 python -m tip_calculator
 ```
 
+or, after installing:
+
+```bash
+tip-calculator
+```
+
 ## 🧪 Tests
 
 ```bash
@@ -71,6 +85,29 @@ No license has been chosen yet.
 
 ## 🔗 Links
 
-- [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/002-tip_calculator)
-- [Documentation](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/002-tip_calculator#readme)
-- [Issue tracker](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/002-tip_calculator/issues)
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
+
+## 📎 Appendix: Project documents
+
+The documents a newcomer needs, in reading order.
+
+| Document | What it tells you |
+| --- | --- |
+| [AGENTS.md][agents] | The rules AI agents follow in this repository |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Wiki][wiki] | Install, usage, how the calculation works and how to test it |
+| [Framework README][framework-readme] | The framework this project uses |
+| [Framework changelog][framework-changelog] | What changed in each framework release |
+
+---
+
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator
+[documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator/wiki
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator/issues
+[agents]: ./AGENTS.md
+[registry]: ./docs/artifact-registry.md
+[wiki]: ./docs/wiki/Home.md
+[framework-readme]: ./framework/README.md
+[framework-changelog]: ./framework/CHANGELOG.md
