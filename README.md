@@ -81,7 +81,7 @@ python -m unittest discover -s tests
 
 ## 📄 License
 
-No license has been chosen yet.
+Licensed under the [GNU Affero General Public License v3.0][license].
 
 ## 🔗 Links
 
@@ -106,6 +106,7 @@ The documents a newcomer needs, in reading order.
 [repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/002-tip-calculator/issues
+[license]: ./LICENSE
 [agents]: ./AGENTS.md
 [registry]: ./docs/artifact-registry.md
 [wiki]: ./docs/wiki/Home.md
